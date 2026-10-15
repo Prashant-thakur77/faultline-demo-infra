@@ -26,7 +26,7 @@
         "payment",
         "checkout"
       ],
-      "state": "on"
+      "state": "off"
     },
     "paymentUnreachable": {
       "state": "off"
