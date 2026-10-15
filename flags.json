@@ -1,0 +1,51 @@
+{
+  "flags": {
+    "adFailure": {
+      "state": "off"
+    },
+    "cartFailure": {
+      "state": "off"
+    },
+    "emailMemoryLeak": {
+      "state": "off"
+    },
+    "imageSlowLoad": {
+      "state": "off"
+    },
+    "intlShippingSlowdown": {
+      "state": "off"
+    },
+    "kafkaQueueProblems": {
+      "state": "off"
+    },
+    "paymentFailure": {
+      "state": "off"
+    },
+    "paymentGate": {
+      "cuts": [
+        "payment",
+        "checkout"
+      ],
+      "state": "on"
+    },
+    "paymentUnreachable": {
+      "state": "off"
+    },
+    "productCatalogFailure": {
+      "state": "off"
+    },
+    "productCatalogLockContention": {
+      "state": "off"
+    },
+    "recommendationCacheFailure": {
+      "state": "off"
+    },
+    "recommendationsEnabled": {
+      "cuts": [
+        "recommendation",
+        "frontend"
+      ],
+      "state": "on"
+    }
+  }
+}
